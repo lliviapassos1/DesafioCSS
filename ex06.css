@@ -1,0 +1,30 @@
+.habitat {
+    display: grid;
+   grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 16px;
+}
+
+.item-1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    background-color: rgb(255, 203, 107);
+}
+
+.item-2 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    background-color: rgb(86, 241, 182);
+}
+
+.item-3 {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    background-color: rgb(255, 106, 106);
+}
+
+.item-4 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    background-color: rgb(22, 113, 192);
+}

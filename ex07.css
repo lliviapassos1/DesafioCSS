@@ -1,0 +1,24 @@
+.habitat {
+    display: grid;
+    grid-column: span 2;
+    grid-template-rows: repeat(2, 1fr);
+    width: 100%;
+}
+
+.snorlax {
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+    background-color: rgb(163, 163, 252);
+}
+
+.diglett {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    background-color: rgb(117, 253, 224);
+}
+
+.zubat {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    background-color: rgb(245, 101, 245);
+}

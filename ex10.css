@@ -1,0 +1,24 @@
+.habitat {
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-template-rows: (3, 1fr);
+    gap: 16px;
+}
+
+.Articuno{
+    grid-column: 1 /2;
+    grid-row: 1/2;
+    background-color: rgb(149, 253, 253);
+}
+
+.Zapdos {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    background-color: rgb(233, 233, 45);
+}
+
+.Moltres {
+    grid-column: 3 / 4;
+    grid-row: 3/ 4;
+    background-color: rgb(201, 113, 113);
+}

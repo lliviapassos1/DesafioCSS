@@ -1,0 +1,22 @@
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    height: 200px;
+}
+
+.Gengar {
+    padding: 16px;
+    align-self: flex-end;
+    background-color: rgb(240, 102, 245)
+}
+.Alakazam {
+    padding: 18px;
+    background-color:rgb(139, 106, 230)
+}
+.Haunter{
+    padding:16px;
+    background-color: rgba(105, 236, 253, 0.904)
+}

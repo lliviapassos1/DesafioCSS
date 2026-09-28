@@ -1,0 +1,22 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    height: 450px;
+}
+
+
+.Machop {
+    padding: 16px;
+    background-color: rgb(117, 165, 255)
+}
+.Geodude {
+    padding: 18px;
+    background-color:rgb(231, 133, 194)
+}
+.Onix{
+    padding:16px;
+    background-color: rgba(245, 110, 110, 0.904)
+}

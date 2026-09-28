@@ -1,0 +1,36 @@
+.habitat {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 40px;
+   
+}
+
+.Sentret {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+     justify-self: center;
+     background-color: rgb(247, 152, 97);
+}
+
+.Ledyba {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+     justify-self: center;
+     background-color: rgb(205, 93, 240);
+}   
+
+
+.Hoothoot {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+     justify-self: end;
+     background-color: rgb(111, 236, 174);
+}
+    
+.Spinarak {
+    grid-column: 4 / 5;
+    grid-row: 1 / 2;
+    justify-self: end;
+    background-color: rgb(231, 72, 133);
+}

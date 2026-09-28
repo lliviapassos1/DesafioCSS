@@ -1,0 +1,22 @@
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+    gap: 16px;
+}
+
+
+.Chamander {
+    padding: 16px;
+    background-color: yellow
+}
+.Squirtle {
+    padding: 18px;
+    background-color:beige
+}
+.Bulbasaur{
+    padding:16px;
+    background-color: rgba(255, 220, 21, 0.904)
+}
